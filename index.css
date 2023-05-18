@@ -373,3 +373,40 @@ box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.25);
 footer{
     overflow-x: hidden;
 }
+.reach{
+    font-size: 0.6rem;
+    display: flex;
+    gap: 0.5em;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    font-family: 'Inter';
+}
+.reachus{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 1em;
+}
+
+.btnmail{
+    font-family: 'poppins';
+    background-color: rgb(33, 142, 33);
+    color: white;
+    font-size: 0.85rem;
+    padding: 1em 2em;
+    border-radius: 5px;
+    border: 0;
+}
+
+.btncall{
+    font-family: 'poppins';
+    background-color: rgb(255, 255, 255);
+    color: rgb(33, 142, 33);
+    font-size: 0.85rem;
+    padding: 1em 2em;
+    border-radius: 5px;
+    border: 1px solid rgb(33, 142, 33);
+
+}
+ 
