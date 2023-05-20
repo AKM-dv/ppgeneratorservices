@@ -164,31 +164,37 @@ body{
     background-image: url(bgpc.svg);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-size: cover;
 }
 .head{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0.5em;
-}
+    background-color: #3b3b3b;
+} 
 .tit{
     text-align: right;
     font-family:'Lato' ;
     color: white;
-    font-size: 1.5rem;
+    font-size: 4vw;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     padding: 0.5em;
+    letter-spacing: 0.08em;
+
     /* background-color: gray; */
 }
 
 .reach{
-    font-size: 0.8rem;
+    font-size: 1rem;
+    
     display: flex;
     gap: 0.5em;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     width: 100%;
+    font-weight: 800;
     font-family: 'Inter';
 }
 .l{
@@ -197,6 +203,7 @@ body{
 }
 .hold{
     display: flex;
+    justify-content: space-between;
 }
 .mhead{
     color: white;
@@ -448,4 +455,113 @@ margin-top: 7em;
   
     text-align: left;
 }
+.gst{
+  font-size: 0.85rem;
+}
+.logo{
+  -webkit-animation: none;
+  animation:none ;
+  transform: translateY(35px);
+}
+.wp{
+  padding: 1em 1em;
+  background-color: #4A9112;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  font-family: 'inter';
 
+}
+.cli{
+  margin-top: 1em;
+  background-color: white;
+}
+
+.client{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+
+color: #434343;
+text-align: center;
+}
+
+.clilist ul{
+  list-style: none;
+  display: flex;
+  overflow-x: scroll;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  padding-bottom: 2em;
+  justify-content: center;
+  gap: 3em;
+
+
+}
+.clilist ul li{
+  padding: 0.5em;
+  border: 0;
+ 
+
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: max-content;
+  padding: 0.3em 2em;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+
+.im{
+  transform: translateY(5px);
+}
+.imholder img{
+  border-radius: 50%;
+}
+
+.cap{
+  
+color: #8F9789;
+font-family: 'INTER';
+font-size: 0.85rem;
+font-weight: bold;
+}
+
+.brands{
+  background-color: rgb(40, 87, 120);
+}
+
+.btit{
+  color: white;
+}
+
+.qna ul{
+  padding-top: 1em;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  width: 100%;
+  flex-direction: column;
+  background-color:#D9D9D9;
+  gap: 1em;
+}
+.qna ul li{
+  display: flex;
+  justify-content: center;
+
+  
+}
+
+.qna ul img{
+  align-self: center;
+  box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25), 5px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
